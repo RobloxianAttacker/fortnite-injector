@@ -1,0 +1,9 @@
+[1 - LOADING DRIVERS]
+! fortnite must be closed !
+open a cmd, do cd <dir of lmap.exe>
+and do lmap --loaddrivers
+
+[2 - INJECT INTO FORTNITE]
+Open fortnite
+run cmd
+and do -> lmap -inject --defaultprocess --dll index.dll
